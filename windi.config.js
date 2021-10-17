@@ -7,9 +7,20 @@ module.exports = {
   theme: {
     extend: {
       container: {
-        center: true
+        center: true,
+        padding: {
+          'DEFAULT': '1rem',
+          'sm': '2rem',
+          'lg': '3rem',
+          'xl': '4rem',
+        }
       }
-    }
+    },
+    backgroundSize: {
+      'auto': 'auto',
+      'cover': 'cover',
+      'contain': 'contain'
+    },
   },
   variants: {
     extend: {}
