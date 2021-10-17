@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
-  <body>
+  <body class="font-poppins">
     <!-- header starts
     including navigaion and hero slider with dynamic backgorund -->
-    <header class="container max-w-screen-xl mt-9">
-      <!-- Navigation Menu -->
+    <header id="top__header" class="container h-screen bg-bottom bg-no-repeat bg-white bg-cover bg-blend-hard-light mix-blend-overlay max-w-screen-xl mt-9">
+      <!-- Main Navigation -->
       <nav class="flex items-center justify-between">
+        <!-- Brand Logo -->
         <a class="" href="#">
           <img class="" src="./assets/img/logo.png" alt="Digity">
         </a>
+        <!-- Navigation menu items-->
         <div class="flex space-x-8 items-center">
           <a href="#" class="uppercase bg-gradient-to-t from-green-200 via-white px-2 hover:bg-gradient-to-t hover:from-green-200 hover:via-white px-2)">Home</a>
           <a href="#" class="uppercase hover:bg-gradient-to-t hover:from-green-200 hover:via-white px-2)">Pages</a>
@@ -24,6 +26,13 @@
           <a href="#" class="uppercase border py-3 px-6 border-2 border-light-blue-600 rounded-lg text-light-blue-600 font-semibold hover:bg-light-blue-600 hover:text-white">Start a Project</a>
         </div>
       </nav>
+      <!-- hero content -->
+      <div id="hero__content" class="text-center max-w-3xl mx-auto mt-56 flex flex-col space-y-4 items-center">
+        <h1 class="text-5xl font-bold text-gray-800 leading-snug">We make remarkable <br> digital products</h1>
+        <p class="text-gray-500 text-base">We design and build beautiful websites, apps and branding</p>
+        <a href="javascript:void()" class="uppercase inline-block bg-green-400 text-white rounded-lg px-6 py-3">View our Work</a>'
+      </div>
+
     </header>
     <!-- header ends -->
 

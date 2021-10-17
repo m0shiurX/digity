@@ -14,6 +14,9 @@ module.exports = {
           'lg': '3rem',
           'xl': '4rem',
         }
+      },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
       }
     },
     backgroundSize: {
